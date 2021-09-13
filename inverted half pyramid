@@ -1,0 +1,14 @@
+# QUESTION :
+# Printing stars like :
+# ******
+# *****
+# ****
+# ***
+# **
+# *
+
+# ---> Solution
+# By using for statements and range() functions 
+
+for i in reversed(range(1,7)):
+    print(i*'*') 
